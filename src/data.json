@@ -1,11 +1,22 @@
 {
   "images": [
     {
-      "id":1, "url":"https://static1.squarespace.com/static/56cd0234f8baf36bf95f95d6/56cd29fe60b5e924dc8e9ec8/56e0a5282fe131436a1ec2e8/1457562921786/TBS_bagel_garlic.jpg?format=300w"
+      "id":1, "url":"https://rawgit.com/marcaaron/react-image-load/master/imgs/120x120.png"
     },
     {
-      "id":2,
-      "url":"https://static1.squarespace.com/static/56cd0234f8baf36bf95f95d6/56cd29fe60b5e924dc8e9ec8/56e0a5282fe131436a1ec2e8/1457562921786/TBS_bagel_garlic.jpg?format=100w"
+       "id":2, "url":"https://rawgit.com/marcaaron/react-image-load/master/imgs/150x150.png"
+    },
+    {
+       "id":3, "url":"https://rawgit.com/marcaaron/react-image-load/master/imgs/190x190.png"
+    },
+    {
+       "id":4, "url":"https://rawgit.com/marcaaron/react-image-load/master/imgs/210x210.png"
+    },
+    {
+       "id":5, "url":"https://rawgit.com/marcaaron/react-image-load/master/imgs/225x225.png"
+    },
+    {
+       "id":6, "url":"https://rawgit.com/marcaaron/react-image-load/master/imgs/240x240.png"
     }
   ]
 }

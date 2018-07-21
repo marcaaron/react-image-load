@@ -12,7 +12,7 @@ export default class Image extends Component {
   componentDidMount(){
     const { naturalWidth } = this.image.current;
     const { minWidth } = this.props;
-    const exceedsMinWidth = naturalWidth > minWidth;
+    const exceedsMinWidth = naturalWidth >= minWidth;
     this.setState({exceedsMinWidth});
   }
 

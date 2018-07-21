@@ -5,7 +5,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {data.images.map(img=><Image key={img.id} minWidth="200" src={img.url}/>)}
+        <h1>Images</h1>
+        <p>Prevent Images Under A Certain Size from Rendering</p>
+        {
+          data.images.map(img=>
+            <Image
+              key={img.id}
+              // Image Sizes Range from 120px to 240px
+              minWidth="120"
+              src={img.url}
+            />
+          )
+        }
       </div>
     );
   }
